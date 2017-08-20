@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Paul Diaz — Zodiac Sign Calculator</title>    
+    <link rel="stylesheet" href="css/zodiac.css">
+</head>
+<body>
+    <form action="" method="post" id="theForm">
+        <fieldset><legend>Find Your Zodiac Sign</legend>
+            <p>Determine your zodiac sign.
+			<div><label for="month">Month</label>
+			<select name="month" id="month">
+			    <option value="01">January</option>
+			    <option value="02">February</option>
+			    <option value="03">March</option>
+			    <option value="04">April</option>
+			    <option value="05">May</option>
+			    <option value="06">June</option>
+			    <option value="07">July</option>
+			    <option value="08">August</option>
+			    <option value="09">September</option>
+			    <option value="10">October</option>
+			    <option value="11">November</option>
+			    <option value="12">December</option>
+			</select></div>
+			<div><label for="birthyear">Year</label><input type="text" name="birthyear" id="birthyear" placeholder=""></div>
+			<div><label>Zodiac Sign:</label>
+				<div id="zodiacimg" name="zodiacimg">
+				<img id="zodimgtag" class="zodiac-sign" src="images/zodiac.jpg">
+			</div>
+			<span id="zodiacname"></span>
+			</div>
+			<input type="submit" value="Calculate" id="submit">
+        </fieldset>
+    </form>
+    <script src="js/zodiac.js"></script>
+</body>
+</html>
